@@ -1,38 +1,15 @@
 import './App.css'
-
-const users = [
-  {
-    name: 'Carlos',
-    address: 'Rua X',
-    age: 28,
-    isAdmin: false,
-  },
-  {
-    name: 'Maria',
-    address: 'Rua XX',
-    age: 31,
-    isAdmin: true,
-  },
-  {
-    name: 'Matheus',
-    address: 'Rua XI',
-    age: 22,
-    isAdmin: false,
-  }
-]
+//import ArrayUsoMap from './Conhecimentos/arrayUsoMap'
+//import Contador from './Conhecimentos/contador'
+//import Modal from './Conhecimentos/Modal'
 
 function App() {
 
-  return (
-    <>
-      <div>
-        {users.map((users) => (
-          <div>Cliente: {users.name}. Mora em: {users.address}.
-          Idade: {users.age}.</div>
-        ))}
-      </div>
-    </>
-  )
+    return(
+       <>
+       
+       </>
+    )
 }
 
 export default App
